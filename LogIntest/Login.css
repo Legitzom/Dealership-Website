@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+* {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+}
+
+
+body {
+  background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,133,254,0.4962359943977591) 10%, rgba(0,78,149,0.4009978991596639) 50%, rgba(0,114,218,0.5018382352941176) 94%);
+  /* background: linear-gradient(to bottom, #006eff, #000000); */
+  /* background: rgb(0,130,249);
+  background: linear-gradient(0deg, rgba(0,130,249,1) 0%, rgba(121,190,253,0) 45%, rgba(163,210,255,0) 57%, rgba(45,63,253,1) 100%); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.container {
+  height: 400px;
+}
+.container, .signup, .login{
+  margin: 30px 20px;
+  border-radius: 30px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 20px 10px rgb(0, 0, 0);
+
+}
+.signup, .login {
+  display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  width: 400px;
+}
+.input, .signInB{
+  margin: 5px;
+  padding: 5px;
+  border-radius: 30px;
+  width: 300px;
+  background-color: #eee;
+  border: none;
+}
+.signInB {
+background-color: #266bc5;
+width: 250px;
+padding: 10px;
+font-weight: bold;
+color: white;
+font-family: monospace;
+}
+#FYP {
+ font-size: small;
+  color: black;
+}
+.icon {
+  background-color: #fff;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 20%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3px;
+  width: 40px;
+  height: 30px;
+}
+.plantscout {
+  width: 70px;
+}
