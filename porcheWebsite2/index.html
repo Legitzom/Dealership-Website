@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Elite Drive Porsche</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elite Drive Porsche</title>
   <script src="https://kit.fontawesome.com/0c0df7952d.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="index.css">
   
@@ -23,15 +23,19 @@
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     </div>
     <button class="sideBtn" onclick="openNav()"class="fa-solid fa-bars fa-2xl">&#9776;</button>
-    <div class="loginPopup">
-      <p></p>
-    </div>
-    <div class="LogInIcon">
-      <a href="#" class="Userlogin"><i class="fa-solid fa-user fa-2xl"></i></a>
-    </div>
+  
+    <button href="#" id="Userlogin" class="Userlogin" onclick="openForm()"><i class="fa-solid fa-user fa-2xl"></i></button>     
   </div>
-    
-
+  <div class="form-popup" id="myForm">
+    <div class="LoginPU">
+      <a href="#" class="closeLogin" onclick="closeForm()">x</a>
+    <span class="loginTxt">Welcome!</span>
+    <span class="loginTxt">please Log In</span><br>
+      <input class="loginInput" type="email" placeholder="Email">
+      <input class="loginInput" type="password" placeholder="Password">
+      <button class="signInB">Sign In</button>
+  </div>
+  </div>
 
 
 <h1 class="welcome">Welcome To Elite Drive Porsche</h1>   

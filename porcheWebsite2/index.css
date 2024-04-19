@@ -5,7 +5,6 @@
 .header {
   background-color: rgb(236, 166, 13); height: 60px;
   width: 100%;
-  height: px;
   position: fixed;
   box-shadow: 0px 3px 20px 0px rgb(129, 129, 129);
 }
@@ -56,16 +55,106 @@
   font-size: 80px;
   margin-left: 50px;
 }
+.form-popup {
+  display: none;
+}
 .Userlogin {
   position: absolute;
   right: 20px;
   top: 8px;
   color: black;
+  background-color: rgb(255, 145, 0);
   border: 2px solid black;
   padding: 10px;
   border-radius: 9px;
 }
-
+.Userlogin:hover {
+  transition: 200ms;
+  background-color: rgb(189, 107, 0);
+}
+.Userlogin:active {
+  box-shadow: inset 0px 0px 10px 0px black;
+}
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+ margin: 10px;
+  opacity: 0.8;
+}
+.closeLogin {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  padding:5px 0px 5px 20px;
+  color: white;
+  background-color: rgb(223, 52, 52);
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 30px;
+  text-decoration: none;
+}
+.closeLogin:hover{
+  transition: 200ms;
+  background-color: rgb(163, 38, 38);
+}
+.closeLogin:active{
+  box-shadow: inset 0px 0px 10px 0px black;
+}
+.loginbtn {
+  position: absolute;
+  right: 20px;
+  top: 8px;
+  height: 29px;
+}
+.loginTxt {
+  color: white;
+  font-size: 60px;
+  cursor:default;
+}
+.loginInput {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 30px;
+  width: 200px;
+  height: 30px;
+  background-color: #eee;
+  border: none;
+  text-align: center;
+}
+.signInB {
+  background-color:#04AA6D;
+  width: 200px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+.signInB:hover {
+cursor: pointer;
+background-color: #09774f;
+transition: 0.15s;
+}
+.signInB:active {
+  box-shadow: inset 0px 0px 10px 0px black;
+}
+.LoginPU { 
+ position: absolute;
+ top: 65px;
+ right: 5px;
+ display: flex;
+ border: 3px solid black;
+ box-shadow: inset 0px 0px 10px 0px rgb(0, 0, 0);;
+ border-radius: 25px;
+ flex-direction: column;  
+ justify-content: center;
+ align-items: center;
+ width: 600px;
+ height: 500px;
+ background-color: gray;
+}
 
 
 
